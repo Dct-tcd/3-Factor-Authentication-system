@@ -4,3 +4,6 @@
 .selected {
     border: 1px solid blue;
   }
+body{
+    background-color: #198754;
+  }

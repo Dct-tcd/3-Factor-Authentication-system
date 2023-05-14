@@ -121,7 +121,7 @@ function Fir({ AuthStatus, setAuthStatus ,Id ,setId}) {
           <div className="flex justify-around">
             {" "}
             <button className="p-2 bg-blue-600   rounded-lg text-gray-100 ">
-              submit
+              Submit
             </button>
         
           </div>
