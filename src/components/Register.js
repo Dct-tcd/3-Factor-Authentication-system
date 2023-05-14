@@ -86,7 +86,7 @@ function Register() {
 //   console.log(regcombo);
   //   }
   return (
-    <div className="">
+    <div className="flex justify-center m-5">
       <form onSubmit={register}>
         <div className=" flex   justify-center ">
           <div className="mt-48 ">
@@ -118,11 +118,12 @@ function Register() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="m-36">Select 5 Images :</div>
-          <div
+          Select 5 Images : <div
             className="flex justify-center flex-wrap "
-            style={{ width: "40%", marginLeft: "10%", marginTop: "10%" }}
+            style={{ width: "40%" }}
           >
+              
+        
             <img
               src={one}
               className="w-32 h-32 border-solid pointer-events-auto  m-1 "
