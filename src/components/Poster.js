@@ -10,12 +10,12 @@ import eig from "./img/eig.jpg";
 import nin from "./img/nin.jpg";
 import { useDispatch, useSelector } from 'react-redux';
 function Poster({ph}) {
-    let val="";
+    let val=ph;
     const [disp, setdisp] = useState(0);
-    for(let i=2;i<ph.length;i++)
-    {
-         val+=ph[i];
-    }
+    // for(let i=2;i<ph.length;i++)
+    // {
+    //      val+=ph[i];
+    // }
     const dispatch = useDispatch();
     // let magic = "Magic",ans=0;
       setTimeout(() => {

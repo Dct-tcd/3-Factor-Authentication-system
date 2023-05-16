@@ -76,7 +76,7 @@ function Register() {
       createdAt: ans,
       email: email,
       password: password,
-      phone:"91"+ph,
+      phone:ph,
       combo:regcombo,
     });
     console.log(1);
